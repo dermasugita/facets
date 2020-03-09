@@ -129,7 +129,7 @@ segsnps <- function(mat, cval=25, hetscale=FALSE, delta=0) {
     # from log-ratio into AUC scale
     delta <- pnorm(delta/sqrt(2)) - 0.5
     # scaling factor for het snps
-    hscl <- ifelse(hetscale, max(1,sqrt(0.25*nrow(mat)/sum(mat$het))), 1)
+    hscl <- 0 # ifelse(hetscale, max(1,sqrt(0.25*nrow(mat)/sum(mat$het))), 1)
     # set valor=0 for homozygous snps
     mat$valor[mat$het==0] <- 0
     # take absolute value of valor
