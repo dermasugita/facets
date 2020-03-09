@@ -50,5 +50,5 @@
   Dario Beraldi] which uses the data.table package available from the
   \code{extRfns} directory. It can be accessed using
 
-  \code{source(system.file("extRfns", "readSnpMatrixDT.R", package="facets"))}
+  \code{source(system.file("extRfns", "readSnpMatrixDT.R", package="facetsS"))}
 }

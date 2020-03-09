@@ -45,7 +45,7 @@ Memorial Sloan-Kettering Cancer Center\\
 \section{Overview}
 
 This document presents an overview of the {\tt FACETS} package which implements
-the methods described in \citep{shen2016facets}. This package is
+the methods described in \citep{shen2016facetsS}. This package is
 for analyzing allele-specific DNA copy number and clonal heterogeneity from
 high-throughput sequencing including whole-genome, whole-exome, and some
 targeted cancer gene panels. The method implements a bivariate genome
@@ -70,7 +70,7 @@ code. In the included data the ref and alt alleles were replaced with ``N'' and
 random noise added to the SNP positions to deidentify the case. \\
 
 <<echo=TRUE,print=FALSE>>=
-datafile = system.file("extdata", "stomach.csv.gz", package="facets")
+datafile = system.file("extdata", "stomach.csv.gz", package="facetsS")
 head(read.csv(datafile)[,c(1:2,5:12)])
 @ 
 
@@ -85,7 +85,7 @@ included {\tt README.txt} file.
 Here we perform an analysis on the stomach cancer whole-exome described above.
 
 <<echo=TRUE,print=FALSE>>=
-library(facets)
+library(facetsS)
 @ 
 
 \noindent
@@ -112,7 +112,7 @@ set/saved for reproducible results.
 
 <<echo=TRUE,print=FALSE>>=
 set.seed(1234)
-datafile = system.file("extdata", "stomach.csv.gz", package="facets")
+datafile = system.file("extdata", "stomach.csv.gz", package="facetsS")
 rcmat = readSnpMatrix(datafile)
 xx = preProcSample(rcmat)
 @ 

@@ -1,6 +1,6 @@
-\name{facets-defunct}
+\name{facetsS-defunct}
 \alias{emcncf2}
-\title{Defunct functions in package \sQuote{facets}}
+\title{Defunct functions in package \sQuote{facetsS}}
 
 \description{These functions are defunct and no longer available.}
 

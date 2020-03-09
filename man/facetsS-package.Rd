@@ -1,12 +1,12 @@
-\name{facets-package}
-\alias{facets-package}
-\alias{facets}
+\name{facetsS-package}
+\alias{facetsS-package}
+\alias{facetsS}
 \docType{package}
 \title{
-  \packageTitle{facets}
+  \packageTitle{facetsS}
 }
 \description{
-  \packageDescription{facets}
+  \packageDescription{facetsS}
 }
 \details{
   FACETS stands for Fraction and Allelic Copy number Estimation from
@@ -16,9 +16,9 @@
   ploidy. The methodology is described in the reference paper.
 }
 \author{
-\packageAuthor{facets}
+\packageAuthor{facetsS}
 
-Maintainer: \packageMaintainer{facets}
+Maintainer: \packageMaintainer{facetsS}
 }
 \references{
   Shen, R and Seshan, VE (2016). FACETS: allele-specific copy number and

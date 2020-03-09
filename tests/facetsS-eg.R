@@ -2,7 +2,7 @@
 # Code to try out code coverage
 ######################################################################
 
-library("facets")
+library("facetsS")
 # check if .Random.seed exists
 seedexists <- exists(".Random.seed")
 # save seed

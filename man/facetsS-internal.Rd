@@ -1,4 +1,4 @@
-\name{facets-internal}
+\name{facetsS-internal}
 \alias{counts2logROR}
 \alias{jointsegsummary}
 \alias{procSnps}
@@ -16,9 +16,9 @@
 \alias{fitcncf0}
 \alias{optcfutil}
 \alias{mergecf}
-\title{facets functions}
+\title{facetsS functions}
 \description{
-  Internal functions of package facets.
+  Internal functions of package facetsS.
 }
 \usage{
 jointsegsummary(jointseg)
